@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color:  black;
+    font-size: 50px;
+}
+section {
+    position: relative;
+    padding: 15px;
+    width: 90%;
+}
+p {
+    position: relative;
+    clear: right;
+}
+div {
+    position: relative;
+    background-color: gray;
+    border: 3.5px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.chicken {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+.beef {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: lightblue;
+}
+.sushi{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: orange;
+}
+.content {
+    padding: 5px;
+    border: none;
+    font-family: helvatica;
+    color: black;
+    margin: 3px;
+    height: 150px;
+    overflow: auto;
+    font-size: 120%;
+}
+/*desktop version*/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: right;
+        width: 33.33%;
+    }
+}
+/*tabet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-md-12 {
+        float: right;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*mobile version*/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
